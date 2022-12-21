@@ -16,7 +16,7 @@ This Firefox theme addresses the issue.
 
 ## Optional features
 
-These can be enabled in `about:config`.
+These can be enabled in `about:config` with these booleans.
 
 * **Photon-styled tabs** `ploton.photonTabs`
   
@@ -30,5 +30,13 @@ These can be enabled in `about:config`.
 
 * **GTK icon scheme (Linux)** `ploton.systemIcons`
   
-  Inspired by the Firefox GNOME theme's option to use GTK's icon scheme. Use the system icon
-  scheme.
+  Use the system icon scheme. Based on the option from Firefox GNOME theme.
+
+* **Bottom tabs** `ploton.preQuantumTabs`
+  
+  Use bottom tabs, similar to Firefox before the Quantum engine was used.
+
+   * **Subfeature: Extend tabs to max width** `ploton.preQuantumTabs.extendedTabs`
+   
+     Makes tabs extend to the maximum width possible, like GNOME apps. Text
+     will also be centered.
