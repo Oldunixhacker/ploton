@@ -38,5 +38,9 @@ These can be enabled in `about:config` with these booleans.
 
    * **Subfeature: Extend tabs to max width** `ploton.preQuantumTabs.extendedTabs`
    
-     Makes tabs extend to the maximum width possible, like GNOME apps. Text
+     Makes tabs extend to the maximum width possible, like macOS and GNOME apps. Text
      will also be centered.
+
+* **Enable compact mode** `ploton.compactMode`
+
+     Allows using Compact destiny while also applying some fixes.
